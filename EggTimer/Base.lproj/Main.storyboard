@@ -142,6 +142,7 @@
                     </view>
                     <connections>
                         <outlet property="eggTimer" destination="DRf-rZ-8Pz" id="xBZ-0l-Uuc"/>
+                        <outlet property="titleLabel" destination="XLm-5r-pSP" id="pJ4-Hl-On0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

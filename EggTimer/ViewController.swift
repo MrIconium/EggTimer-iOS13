@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     let cookingTimes = ["Soft":3, "Medium":5, "Hard":7]
     var timer: Timer?
     
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -65,6 +67,7 @@ class ViewController: UIViewController {
         } else {
             timer?.invalidate()
             eggTimer.progress = 1
+            titleLabel.text = "Done!"
         }
     }
 
